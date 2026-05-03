@@ -15,5 +15,7 @@ class Settings(BaseSettings):
     external_api_base_url: str = ""
     external_api_key: str = ""
 
+    anthropic_api_key: str = ""
+
 
 settings = Settings()
